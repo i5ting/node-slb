@@ -59,13 +59,13 @@ head请求。
 
 
     > url@0.0.0 start /Users/sang/workspace/github/node-slb/demo
-    > node ./bin/www
+    > DEBUG=slb node ./bin/www
 
     [ALIYUN.COM LOG]: SLB health checking....OK...
   
 如果出现`[ALIYUN.COM LOG]: SLB health checking....OK...`说明正常。
 
-
+如果想打印日志，可以DEBUG=slb，如果不想打印日志，默认即无。
 
 ## 科普：HEAD请求官方定义
 

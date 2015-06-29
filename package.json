@@ -1,6 +1,6 @@
 {
   "name": "node-slb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aliyun slb",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/i5ting/node-slb/issues"
   },
-  "homepage": "https://github.com/i5ting/node-slb#readme"
+  "homepage": "https://github.com/i5ting/node-slb#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
