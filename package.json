@@ -4,7 +4,9 @@
   "description": "aliyun slb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub": "npm publish .",
+    "start": "cd demo && npm install && npm start",
+    "test": "curl -i -X HEAD http://127.0.0.1:3000"
   },
   "repository": {
     "type": "git",
